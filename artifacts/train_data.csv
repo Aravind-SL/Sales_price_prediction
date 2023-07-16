@@ -1,4 +1,4 @@
-,Item_Identifier,Item_Weight,Item_Fat_Content,Item_Visibility,Item_Type,Item_MRP,Outlet_Identifier,Outlet_Establishment_Year,Outlet_Size,Outlet_Location_Type,Outlet_Type,Item_Outlet_Sales
+Unnamed: 0,Item_Identifier,Item_Weight,Item_Fat_Content,Item_Visibility,Item_Type,Item_MRP,Outlet_Identifier,Outlet_Establishment_Year,Outlet_Size,Outlet_Location_Type,Outlet_Type,Item_Outlet_Sales
 549,FDW44,9.5,Regular,0.035205866,Fruits and Vegetables,171.3448,OUT049,1999,Medium,Tier 1,Supermarket Type1,2386.2272
 7757,NCF54,18.0,Low Fat,0.047473135,Household,170.5422,OUT045,2002,Medium,Tier 2,Supermarket Type1,3103.9596
 764,FDY03,17.6,Regular,0.076121831,Meat,111.7202,OUT046,1997,Small,Tier 1,Supermarket Type1,1125.202
