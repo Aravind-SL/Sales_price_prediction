@@ -5,6 +5,5 @@ matplotlib
 scikit-learn
 catboost
 xgboost
-dill
-category_encoders
+streamlit
 # -e .

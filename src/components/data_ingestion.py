@@ -27,7 +27,7 @@ class DataIngestion:
         try:
             df = pd.read_csv('Notebooks\data\Train_clean.csv')
             logging.info('Reading the dataset.')
-
+            df.drop(columns=['Item_Identifier'], inplace=True)
             os.makedirs(os.path.dirname(self.ingestion_config.test_data_path), exist_ok=True)
             df.to_csv(self.ingestion_config.raw_data_path, index=False, header=True)
             logging.info("Train test split initiated")

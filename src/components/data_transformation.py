@@ -16,7 +16,7 @@ from src.utils import save_object
 
 @dataclass
 class DataTransformationConfig:
-    preprocessor_obj_file_path=os.path.join('artifacts',"proprocessor.pkl")
+    preprocessor_obj_file_path=os.path.join('artifacts',"preprocessor.pkl")
 
 class DataTransformation:
     def __init__(self):
@@ -29,8 +29,7 @@ class DataTransformation:
         '''
         try:
             numerical_columns = ['Item_Weight', 'Item_Visibility', 'Item_MRP', 'Outlet_Establishment_Year']
-            categorical_columns = ['Item_Identifier',
-                                   'Item_Fat_Content',
+            categorical_columns = [ 'Item_Fat_Content',
                                     'Item_Type', 
                                     'Outlet_Identifier', 
                                     'Outlet_Size', 
